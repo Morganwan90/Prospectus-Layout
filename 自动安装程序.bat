@@ -1,21 +1,42 @@
 @echo off
-echo å°è¯•åŒ¹é…æ¨¡æ¿åœ°å€...
+echo ³¢ÊÔÆ¥ÅäÄ£°åµØÖ·...
+echo =========================================================================
+echo =========================================================================
 if exist "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates" ( 
-xcopy "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal-old.dotm"/y/f
-xcopy æ‹›è‚¡ä¹¦æ’ç‰ˆ*.dotm "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm"/y/f
-echo ã€åŒ¹é…ç»“æœã€‘é»˜è®¤æ¨¡æ¿åœ°å€åŒ¹é…æˆåŠŸï¼Œåœ°å€ä¸ºï¼šC:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm
-echo ã€å¤„ç†ã€‘å·²å°è¯•æ›¿æ¢é»˜è®¤æ¨¡æ¿æ–‡ä»¶ï¼Œæ—§æ–‡ä»¶æ›´åä¸ºNormal-old.dotm
-echo ã€æ³¨æ„ã€‘å¦‚æ˜¾ç¤ºâ€œå…±äº«å†²çªâ€ï¼Œè¯·å…³é—­æ‰€æœ‰wordå†æ¬¡å°è¯•è‡ªåŠ¨æ›¿æ¢ç¨‹åºã€‚
+xcopy "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal-old.dotm"/y/f || goto error1
+xcopy ÕĞ¹ÉÊéÅÅ°æ*.dotm "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm"/y/f && (goto succeed1) || goto error2
 ) else ( 
-echo é»˜è®¤æ¨¡æ¿åœ°å€åŒ¹é…å¤±è´¥ï¼Œå°è¯•åŒ¹é…PAæ ‡è£…æœºæ¨¡æ¿åœ°å€...
+echo Ä¬ÈÏÄ£°åµØÖ·Æ¥ÅäÊ§°Ü£¬³¢ÊÔÆ¥ÅäPA±ê×°»úÄ£°åµØÖ·...
 if exist "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates" ( 
-xcopy "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal-old.dotm"/y/f
-xcopy æ‹›è‚¡ä¹¦æ’ç‰ˆ*.dotm "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" /y/f
-echo ã€åŒ¹é…ç»“æœã€‘PAæ ‡è£…æœºæ¨¡æ¿åœ°å€åŒ¹é…æˆåŠŸï¼Œåœ°å€ä¸ºï¼šD:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm
-echo ã€å¤„ç†ã€‘å·²å°è¯•æ›¿æ¢PAæ ‡è£…æœºæ¨¡æ¿æ–‡ä»¶ï¼Œæ—§æ–‡ä»¶æ›´åä¸ºNormal-old.dotm
-echo ã€æ³¨æ„ã€‘å¦‚æ˜¾ç¤ºâ€œå…±äº«å†²çªâ€ï¼Œè¯·å…³é—­æ‰€æœ‰wordå†æ¬¡å°è¯•è‡ªåŠ¨æ›¿æ¢ç¨‹åºã€‚
+xcopy "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal-old.dotm"/y/f || goto error1
+xcopy ÕĞ¹ÉÊéÅÅ°æ*.dotm "D:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm" /y/f && (goto succeed2) || goto error2
 ) else ( 
-echo æœªæˆåŠŸæå–åœ°å€ï¼Œè¯·æ‰‹åŠ¨æ›¿æ¢
+echo =========================================================================
+echo =========================================================================
+echo ¡¾µØÖ·ÌáÈ¡Ê§°Ü¡¿Î´³É¹¦ÌáÈ¡µØÖ·£¬ÇëÊÖ¶¯Ìæ»»
 ) 
 ) 
+
+:succeed1
+echo =========================================================================
+echo =========================================================================
+echo ¡¾°²×°³É¹¦¡¿Ä¬ÈÏÄ£°åµØÖ·°²×°³É¹¦£¬µØÖ·Îª£ºC:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm
+pause
+exit
+:suceed2
+echo =========================================================================
+echo =========================================================================
+echo ¡¾°²×°³É¹¦¡¿PA±ê×°»úÄ£°åµØÖ·°²×°³É¹¦£¬µØÖ·Îª£ºD:\Users\%USERNAME%\AppData\Roaming\Microsoft\Templates\Normal.dotm
+pause
+exit
+:error1
+echo =========================================================================
+echo =========================================================================
+echo ¡¾±¸·İÊ§°Ü¡¿Î´ÄÜ±¸·İ¾ÉÄ£°å£¬Çë¼ì²éÏµÍ³È¨ÏŞ
+pause
+exit
+:error2
+echo =========================================================================
+echo =========================================================================
+echo ¡¾±¸·İÊ§°Ü¡¿Î´ÄÜ±¸·İ¾ÉÄ£°å£¬Çë¹Ø±ÕËùÓĞword£¡
 pause
