@@ -242,6 +242,6 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 已知缺点：
 
-- 存在如果存在合并单元格则不能读取
+- 存在如果存在【列级别】合并单元格则不能读取
 
 - 如果源表格的列数少于目标表格的列会出现不可知的BUG
