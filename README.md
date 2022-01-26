@@ -1,16 +1,6 @@
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-<!-- PROJECT LOGO -->
-
 ## 招股说明书排版工具
 
-<img title="" src="file:///C:/Users/Morgan Wan/AppData/Roaming/marktext/images/2022-01-26-16-11-40-image.png" alt="" width="714">
+![image](https://user-images.githubusercontent.com/61633409/151127262-260eafae-8a54-45ad-b17e-6a2c63423591.png)
 
 本工具主要基于林铖的审计报告排版工具基础上，依据招股说明书格式以及个人习惯修改。
 
@@ -30,7 +20,7 @@
 
 - 执行"自动安装程序.bat"
   
-  - ![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-14-53-44-image.png)
+  - ![image](https://user-images.githubusercontent.com/61633409/151127319-e362054d-e6a5-4737-be7c-7efe2fdd8c9d.png)
 
 - 程序会自动尝试匹配office默认安装地址以及 PA 标装机的默认地址。
 
@@ -68,7 +58,7 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 ### 1、信息栏
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-01-41-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127366-47097c87-6f05-4d90-9112-1ac51344e091.png)
 
 **基础信息：** 用户名，日期。
 
@@ -76,19 +66,19 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 ### 2、文字处理
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-06-56-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127385-d9dd4488-90da-4175-aa89-279be29de22a.png)
 
 ### 3、数字处理
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-07-11-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127407-2b3ba4df-2101-442e-966a-b91c4e4cb4f6.png)
 
 #### 千分符效果：
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-23-49-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127420-56c60c29-67ff-42b9-b7dc-707a832ffd1b.png)
 
 ### 4、表格处理
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-07-28-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127432-f9c9101e-20e4-4312-8c84-6fe00010087c.png)
 
 1. 调整表格样式、字体、行高
 
@@ -104,15 +94,15 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 **表格样式一：**
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-08-00-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127456-d8b80d23-e94c-4e89-9522-a844fb0037af.png)
 
 **表格样式二：**
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-08-27-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127471-c117adf9-c848-4e52-81b5-67af436f09bb.png)
 
 ### 5、段落设置
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-26-27-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127488-05418c15-b1e2-418d-86c2-1725603ebf34.png)
 
 根据招股书样式设置各级标题：
 
@@ -208,11 +198,11 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 #### 效果图：
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-55-31-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127508-a1e1f902-eae9-4b5f-9507-f31aad5544d6.png)
 
 ### 6、汇总校验
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-10-43-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127523-a35e8f9d-a2fe-4331-b1ee-3dd73ade147d.png)
 
 用于表格数字校验是否正确。
 
@@ -220,15 +210,15 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 #### 效果演示：
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-19-50-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127545-027bc540-c971-4d59-a0aa-6d31f10b9813.png)
 
 ### 7、页面处理
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-06-36-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127562-51cc184d-ca99-43e8-a30d-9cc0ea676aba.png)
 
 ## 8、实验功能
 
-![](C:\Users\Morgan%20Wan\AppData\Roaming\marktext\images\2022-01-26-15-09-02-image.png)
+![image](https://user-images.githubusercontent.com/61633409/151127578-d5826296-489c-44f6-9134-8dc82e8dcf7c.png)
 
 - 复制表格宽度，一般用于同一类型的表格宽度（如三年一期报表）
 
