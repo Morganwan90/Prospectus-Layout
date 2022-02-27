@@ -202,15 +202,21 @@ D:\Users\【UM 账号】\AppData\Roaming\Microsoft\Templates\Normal.dotm
 
 ### 6、汇总校验
 
-![image](https://user-images.githubusercontent.com/61633409/151127523-a35e8f9d-a2fe-4331-b1ee-3dd73ade147d.png)
+![截图_20224027104002](https://user-images.githubusercontent.com/61633409/155886905-348eb7ef-6d9c-496a-ab43-72cef1c9a252.png)
 
-用于表格数字校验是否正确。
+用于表格数字校验是否正确，支持多行多列。
 
-选中行、列或选中区域后，结果会显示在word左下角栏上。
+行列校验是默认有合计行/列，汇总数据和合计数对比。
+
+如果只想知道合计数请使用汇总校验。
+
+选中行、列或选中区域后，结果会弹窗显示。
 
 #### 效果演示：
 
-![image](https://user-images.githubusercontent.com/61633409/151127545-027bc540-c971-4d59-a0aa-6d31f10b9813.png)
+![截图_20223727103716](https://user-images.githubusercontent.com/61633409/155886882-5a029f82-c3c0-47b1-91de-8249938ca0a9.png)
+
+
 
 ### 7、页面处理
 
